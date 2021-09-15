@@ -1,0 +1,30 @@
+.top-header-heading{
+    background-color: #ebb644;
+}
+
+.footer
+{
+background-color: #ebb644;
+color: white;
+}
+.container{
+    height: 1440px !important;
+    width: 940px !important;
+}
+
+.product-details{
+    border: solid 1px gray;
+    
+}
+
+.recipient-area
+{
+    border: solid 1px gray;
+
+}
+
+.paymets-section
+{
+    border: solid 1px gray;
+ 
+}

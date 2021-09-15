@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice</title>
+    <!-- Bootstarp link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- css link  -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <style>
+      .product-details p{
+        margin: 0;
+        padding: 0;
+      }
+      .fixed-footer{
+         
+      }
+      .fixed-header{
+         
+      }
+    </style>
+  </head>
+  <body class="cotainer">
+    <main>
+   <div class="fixed-header">
+    <div
+    class="
+      top-header-heading
+      text-white
+      mt-5
+      row
+      d-flex
+      align-items-center
+      p-3
+    "
+  >
+    <div class="col-lg-2 col-md-2 col-2">
+      <img src="logo.png" style="max-width: 30%" />
+    </div>
+
+    <div class="col-lg-5 col-md-5 col-5" style="line-height: 60%">
+      <p>Address :</p>
+      <span> House-105,Road-2,Khilkhet,Dhaka-1229 </span>
+    </div>
+
+    <div class="col-lg-5 col-md-5 col-5" style="line-height: 60%">
+      <p>Contact :</p>
+
+      <span>
+        phone : <span> 01712345678 </span> email :
+        <span> test@gamil.com </span>
+      </span>
+    </div>
+  </div>
+  <!-- Product Details Section  -->
+  <div class="product-details mt-3">
+  <div class="row p-1">
+    <div class="col-md-3">
+      <p class="pt-2 ps-2 fw-bold">
+        Product Details :
+      </p>
+    </div>
+    <div class="col-md-3 text-center pt-1">
+      <img src="rsz_barcode-removebg-preview.png" style="max-width: 150px ; max-height: 35px;" />
+      <p style="font-size: 12px;">
+        56176452
+      </p>
+
+    </div>
+
+    <div class="col-md-6 text-center">
+      <p class="pt-2 pe-2">
+       <span class="fw-bold"> Traking No : </span> 524646443656
+      </p>
+
+    </div>
+  </div>
+
+    <table
+      class="table table-hover table-bordered"
+    >
+      <thead>
+        <tr>
+          <th scope="col">Invoice</th>
+          <th scope="col">Product Name</th>
+          <th scope="col">Ammount</th>
+          <th scope="col">Traking Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">120008</th>
+          <td>mobile</td>
+          <td>15000 BDT</td>
+          <td>124536895447</td>
+        </tr>
+        <tr>
+          <th scope="row">120009</th>
+          <td>mobile</td>
+          <td>15000 BDT</td>
+          <td>124536895447</td>
+        </tr>
+         
+
+        <tr>
+          <th scope="row">120009</th>
+          <td>mobile</td>
+          <td>15000 BDT</td>
+          <td>124536895447</td>
+        </tr>
+        <tr>
+          <th scope="row">120009</th>
+          <td>mobile</td>
+          <td>15000 BDT</td>
+          <td>124536895447</td>
+        </tr>
+        <tr>
+          <th scope="row">120009</th>
+          <td>mobile</td>
+          <td>15000 BDT</td>
+          <td>124536895447</td>
+        </tr>
+        <tr>
+          <th scope="row">120009</th>
+          <td>mobile</td>
+          <td>15000 BDT</td>
+          <td>124536895447</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+   </div>
+
+
+      <div class="fixed-footer">
+              <!-- Recipient Area -->
+      <div class="mt-3 recipient-area p-2">
+        <div>
+          <span class="fw-bold"> Recipient : </span>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            quos, delectus dicta, ad obcaecati,
+          </p>
+        </div>
+        <!-- Sender Area -->
+        <div class="mt-3">
+          <span class="fw-bold"> Sender : </span>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            quos, delectus dicta, ad obcaecati,
+          </p>
+        </div>
+      </div>
+
+      <!-- Payments Section  -->
+
+      <div class="paymets-section p-3 mt-2">
+        <div class="row">
+          <!-- qri code and details  -->
+          <div class="col-lg-4 col-md-4 col-4">
+            <h5>PAYMENTS :</h5>
+
+            <p>Recived with thanks Taka</p>
+
+            <p class="fw-bold">One Thousand Only</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-4">
+            <img src="download.png" style="max-width: 40%" />
+          </div>
+
+          <!-- invoice payment details with vat  -->
+          <div class="col-lg-4 col-md-4 col-4">
+            <table
+              class="table table-hover table-bordered"
+            >
+              <tbody>
+                <tr>
+                  <td scope="">Discount Amount</td>
+                  <td>0.00</td>
+                </tr>
+
+                <tr>
+                  <td scope="">VAT/TAX</td>
+                  <td>0.00</td>
+                </tr>
+
+                <tr>
+                  <td scope="">Fees</td>
+                  <td>0.00</td>
+                </tr>
+
+                <tr>
+                  <th scope="col">Total Amount</th>
+                  <td>0.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="text-center" style="font-size: smaller">
+            Note : Please Keep the invoice copy for Presenting at the time of
+            report delivery
+          </p>
+        </div>
+      </div>
+
+      <!-- Sender and Reciver Signature  -->
+
+      <div class="d-flex align-items-center justify-content-around mt-5">
+        <div>
+          <hr class="auto" />
+          Sender Signature
+        </div>
+
+        <div>
+          <hr class="auto" />
+          Reciver Signature
+        </div>
+      </div>
+
+      <!-- Footer Section  -->
+      <div class="footer text-center p-1 mt-2">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" style="max-width: 5%" />
+        </a>
+        <span class="fw-bold"> Hotline : </span> 01924001500
+      </div>
+      </div>
+    </main>
+  </body>
+</html>
